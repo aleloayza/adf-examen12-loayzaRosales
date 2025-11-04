@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-ucb-examen-97671"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-ucb-examen97671.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "bronze-examen12"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "aleloayza"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sql-ucb-examen97671.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "silver-examen12"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "aleloayza"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

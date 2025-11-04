@@ -1,0 +1,24 @@
+{
+	"name": "GOLD_DIM_PRODUCTOS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "prd_key",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "GOLD",
+			"table": "DIM_PRODUCTOS"
+		}
+	}
+}

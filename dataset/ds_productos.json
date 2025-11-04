@@ -1,0 +1,40 @@
+{
+	"name": "ds_productos",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "prd_id",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_key",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_nm",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_cost",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_line",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "BRONZE",
+			"table": "PRODUCTOS"
+		}
+	}
+}

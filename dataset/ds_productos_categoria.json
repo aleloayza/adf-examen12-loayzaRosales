@@ -1,0 +1,36 @@
+{
+	"name": "ds_productos_categoria",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "cat",
+				"type": "varchar"
+			},
+			{
+				"name": "subcat",
+				"type": "varchar"
+			},
+			{
+				"name": "maintenance",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "BRONZE",
+			"table": "PRODUCTOS_CATEGORIAS"
+		}
+	}
+}

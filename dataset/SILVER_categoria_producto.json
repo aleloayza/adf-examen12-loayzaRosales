@@ -1,0 +1,28 @@
+{
+	"name": "SILVER_categoria_producto",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "subcat",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "SILVER",
+			"table": "PRODUCTOS_CATEGORIAS"
+		}
+	}
+}

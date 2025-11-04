@@ -1,0 +1,28 @@
+{
+	"name": "SIVER_clientes_location",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "cid",
+				"type": "varchar"
+			},
+			{
+				"name": "cntry",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "SILVER",
+			"table": "CLIENTES_LOCATION"
+		}
+	}
+}

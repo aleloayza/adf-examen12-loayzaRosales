@@ -1,0 +1,38 @@
+{
+	"name": "SIVER_producto",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_examen12",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "prd_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "prd_key",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_nm",
+				"type": "varchar"
+			},
+			{
+				"name": "prd_cost",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "SILVER",
+			"table": "PRODUCTOS"
+		}
+	}
+}
